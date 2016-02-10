@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+@import "normalize";
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: 'futura-pt', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+footer {
+  text-align: center;
+}
+
+.page-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background: image-url('the_soap_box_logo.png') no-repeat center center;
+  background-size: contain;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.podcasts {
+  margin: 40px 0 80px;
+
+  iframe {
+    margin: 0 auto;
+  }
+}
