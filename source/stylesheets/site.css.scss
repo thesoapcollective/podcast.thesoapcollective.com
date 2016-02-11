@@ -31,6 +31,12 @@ footer {
   text-align: center;
 }
 
+.text-overflow {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
 .page-container {
   max-width: 600px;
   margin: 0 auto;
@@ -43,9 +49,6 @@ footer {
   margin: 0 auto;
   background: image-url('the_soap_box_logo.png') no-repeat center center;
   background-size: contain;
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
 }
 
 .podcasts {
@@ -54,4 +57,13 @@ footer {
   iframe {
     margin: 0 auto;
   }
+}
+
+.itunes {
+  width: 110px;
+  height: 40px;
+  margin: 0 auto;
+  display: block;
+  background: image-url('itunes_badge.svg') no-repeat center center;
+  background-size: contain;
 }
